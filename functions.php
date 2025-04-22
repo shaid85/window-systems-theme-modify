@@ -22,6 +22,9 @@ require_once LANGU_THEME_DIR . '/inc/calc-funx.php';
 require_once LANGU_THEME_DIR . '/inc/cal-cpt.php';
 require_once LANGU_THEME_DIR . "/inc/customizer/class-apie-mus.php";
 
+// ews page builder
+require_once LANGU_THEME_DIR . '/inc/call_flexiable_layout.php';
+
 
 
 
@@ -47,6 +50,8 @@ class Langu_main
         // wp_enqueue_style('custom-css', LANGU_THEME_URI . '/assets/css/custom.css');
         wp_enqueue_style('langu-loader-css', LANGU_THEME_URI . "/assets/css/ajax-loader.css");
         wp_enqueue_style('tailwind-build', LANGU_THEME_URI . "/dist/output.css");
+        // ews_new_style
+        wp_enqueue_style('modified_by_dev2-css', LANGU_THEME_URI . '/assets/css/modified_dev2.css');
 
 
         wp_enqueue_script('langu-loader-js', LANGU_THEME_URI . "/assets/js/langu-loader.js", ['jquery'], null, true);
@@ -55,6 +60,8 @@ class Langu_main
         wp_enqueue_style('swiper-style', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.css');
         wp_enqueue_script('swiper-script', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js', array('jquery'), null, true);
         wp_enqueue_script('header-sticky', LANGU_THEME_URI . "/assets/js/header.js", ["jquery"], null, true);
+        //ews new js
+        wp_enqueue_script('new-actions', get_template_directory_uri() . '/assets/js/new_actions.js', array(), '2.0.0', 'true');
     }
 
     public function include_admin_scripts($hook)

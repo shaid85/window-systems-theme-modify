@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #ffcc32;
+}
+li {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.tik_list ul {
+  padding-bottom: 10px;
+}
+.tik_list li {
+  font-family: 'Degular', sans-serif !important;
+  font-weight: 300;
+  background: url(../images/tik2.png) no-repeat left;
+  padding-left: 32px;
+  background-size: 24px;
+}
+.tik_list li strong {
+  font-weight: 600;
+}
+.grid p {
+  margin-bottom: 1.5rem;
+}
+.mega-menu > li > a:hover {
+  color: var(--primary-color);
+}
+a.head_btn:hover {
+  background-color: #f4e1a6;
+}
+ul.mega-menu-items li.last {
+  grid-column-start: 1;
+}
+.mega-menu-dropdown {
+  padding-top: 45px;
+  padding-bottom: 40px;
+  height: fit-content;
+  gap: 20px;
+}
+.admin-bar .mega-menu-dropdown {
+  top: 170px;
+}
+/* See more effect */
+.long-list-inner {
+  max-height: 110px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  position: relative;
+}
+.long-list-inner.expanded {
+  max-height: none;
+}
+button.see-more-btn {
+  margin-top: 20px;
+}
+/* why-choose-us */
+.iconbox_wrap.flex {
+  flex-wrap: wrap;
+}
+.icon_box {
+  flex: 0 0 47%;
+}
+.icon_box img.image_icon {
+  width: 32px;
+  height: auto;
+}
+/* Feedback */
+.reviewbox {
+  padding: 20px;
+}
+.faq-item {
+  padding: 15px 30px;
+}
+a.faq_btn {
+  padding: 15px 30px;
+  width: fit-content;
+}

@@ -45,7 +45,7 @@
 
 
         </div>
-        <div class="flex flex-col md:flex-row gap-2 mt-[32px]">
+        <div class="flex flex-col md:flex-row gap-4 mt-[32px]">
           <a href="#"
             class="text-[18px] font-[700] leading-[26px] text-center font-Degular self-start w-full md:w-[260px] h-[58px] p-[16px] rounded-[16px] bg-[#000000] text-[#ffffff]">
             Kainų skaičiuoklė
@@ -74,7 +74,7 @@
           $icon_url = get_template_directory_uri() . '/assets/icons/Vector.png';
           $title = get_the_title();
           $permalink = get_permalink();
-          ?>
+      ?>
 
           <div
             class="flex items-center justify-between gap-4 border-gray-200 rounded-[16px] bg-[#F7F7F7] px-4 py-8 shadow-sm">
@@ -113,7 +113,7 @@
             </a>
           </div>
 
-          <?php
+      <?php
         endwhile;
         wp_reset_postdata();
       else:
@@ -126,7 +126,7 @@
 
   <main>
     <script>
-      document.addEventListener('click', function (e) {
+      document.addEventListener('click', function(e) {
         if (!e.target.matches('.cpt-show-more')) return;
 
         const container = e.target.closest('.cpt-desc-container');

@@ -59,7 +59,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
         <div class="">
           <!-- Buttons Section -->
-          <div class="flex flex-col md:flex-row gap-[8px] md:gap-[16px]">
+          <div class="flex flex-col md:flex-row gap-4 md:gap-[16px]">
             <a href="#"
               class="text-[18px] font-[700] leading-[26px] text-center font-Degular self-start w-full md:w-[260px] h-[58px] p-[16px] rounded-[16px] bg-[#000000] text-[#ffffff]">
               Kainų skaičiuoklė
@@ -106,7 +106,7 @@ if ($terms && !is_wp_error($terms)) {
     // Retrieve the featured image for this term (set via term meta)
     $featured_image = get_term_meta($term->term_id, 'produkcija_category_image', true);
     $classes = $i % 2 == 0 ? "bg-primary" : "bg-white";
-    ?>
+?>
     <div class="w-full <?php echo $classes; ?>">
       <div class="max-w-[1440px] md:px-[40px] px-4 pb-10 mx-auto h-auto md:h-[544px]">
         <div
@@ -140,7 +140,7 @@ if ($terms && !is_wp_error($terms)) {
                 'taxonomy' => 'produkcija_category',
                 'hide_empty' => false,
                 'parent' => $term->term_id, // Sub-categories
-              ]); 
+              ]);
               // Sort terms by term_order meta
               usort($child_terms, function ($a, $b) {
                 $order_a = get_term_meta($a->term_id, 'term_order', true);
@@ -151,14 +151,14 @@ if ($terms && !is_wp_error($terms)) {
 
               if ($child_terms && !is_wp_error($child_terms)) {
                 foreach ($child_terms as $child_term) {
-                  ?>
+              ?>
                   <p>
                     <a style="font-family: ErbaumRegular !important; font-weight: normal;"
                       href="<?php echo esc_url(get_term_link($child_term)); ?>">
                       <?php echo esc_html($child_term->name); ?>
                     </a>
                   </p>
-                  <?php
+              <?php
                 }
               }
               ?>
@@ -167,7 +167,7 @@ if ($terms && !is_wp_error($terms)) {
         </div>
       </div>
     </div>
-    <?php
+<?php
   }
 } else {
   echo '<p>No terms found.</p>';
@@ -182,7 +182,7 @@ if ($terms && !is_wp_error($terms)) {
 </style>
 
 <script>
-  document.addEventListener('click', function (e) {
+  document.addEventListener('click', function(e) {
     if (!e.target.matches('.cpt-show-more')) return;
 
     const container = e.target.closest('.cpt-desc-container');
