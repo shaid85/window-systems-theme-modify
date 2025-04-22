@@ -1,0 +1,115 @@
+:root {
+  --site-header-size: 142px;
+  --site-mobile-header-size: 76px;
+}
+
+html {
+  font-family: DegularVariable, sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  scrollbar-width: none;
+}
+
+/* info header for mobile  */
+
+#mobile-menu {
+  top: var(--site-mobile-header-size) !important;
+}
+
+@media screen and (max-width: 450px) {
+  #site-header {
+    max-height: var(--site-mobile-header-size) !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ErbaumRegular, sans-serif;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+}
+
+.bg-yellow {
+  background-color: #ffcc32;
+}
+
+.text-yellow {
+  color: #ffcc32;
+}
+
+li,
+.degular,
+a,
+button {
+  font-family: "DegularTextBold", sans-serif !important;
+}
+
+.degular-light {
+  font-family: "DegularVariable", sans-serif;
+}
+
+.comment-form-comment {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea#comment {
+  border-radius: 12px;
+  margin: 8px 0;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+.response-time {
+  margin-top: -30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+.checkbox-icon {
+  width: 24px !important;
+  object-fit: cover;
+  max-width: 24px !important;
+}
+
+.checkbox-box {
+  display: flex;
+  margin: 8px 0;
+  align-items: center;
+}
+
+.checkbox-list-container {
+  /* margin: 24px 0; */
+}
+
+/* black checkbox */
+
+input[type="checkbox"]:checked {
+  accent-color: black;
+}
+
+input[type="checkbox"] {
+  height: 24px !important;
+  padding: 4px 8px !important;
+  border-radius: 4px !important;
+  display: inline-block;
+  width: 24px;
+}
+
+#mobile-menu {
+  top: var(--site-header-size);
+}

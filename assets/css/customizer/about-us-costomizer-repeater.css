@@ -1,0 +1,11 @@
+.repeater-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+}
+.repeater-card input,
+.repeater-card textarea {
+  width: 100%;
+  margin-bottom: 5px;
+}

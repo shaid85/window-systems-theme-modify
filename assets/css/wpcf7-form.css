@@ -1,0 +1,241 @@
+.wpcf7-form {
+  display: flex;
+  background-color: #ffffff;
+  width: 640px;
+  margin: auto;
+  border-radius: 16px;
+  padding: 32px;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.wpcf7-form p {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-family: "DegularVariable", serif;
+}
+
+.wpcf7-form p label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.wpcf7-form p input,
+.wpcf7-form p textarea {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  border: 1px solid #bebebe;
+  border-radius: 12px;
+  padding: 8px 12px;
+  gap: 8px;
+  background: #ffffff;
+  /* font-family: "Degular", sans-serif !important; */
+  font-family: "DegularVariable", serif;
+
+  font-weight: 400;
+}
+
+.wpcf7-form p span textarea {
+  display: flex;
+  height: 174px;
+  width: 100%;
+  border: 1px solid #bebebe;
+  border-radius: 12px;
+  padding: 8px 12px;
+  gap: 8px;
+  background: #ffffff;
+}
+
+.wpcf7-form p .wpcf7-submit {
+  background: #ffcc32;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  height: 58px;
+  border: none !important;
+}
+
+.wpcf7-form-control-wrap .wpcf7-checkbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  /* Creates two equal columns */
+}
+
+.wpcf7-form-control-wrap .wpcf7-checkbox .wpcf7-list-item {
+  margin: 0;
+}
+
+.wpcf7-form-control-wrap .wpcf7-checkbox span {
+  /* background-color: yellow; */
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wpcf7-form-control-wrap .wpcf7-checkbox span label {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.wpcf7-form-control-wrap .wpcf7-checkbox span label input {
+  width: 20px;
+  height: 20px;
+}
+
+.form-style-class {
+  display: flex !important;
+  flex-direction: row !important;
+  row-gap: 10px;
+  gap: 0 !important;
+  justify-content: space-between;
+}
+
+.form-style-class label:first-of-type {
+  margin-right: 4px;
+}
+
+.form-style-class label:last-of-type {
+  margin-left: 4px;
+}
+
+/* newly added css date 3/23/2025 */
+
+.cf7-row p {
+  display: flex;
+  flex-direction: row !important;
+  gap: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 680px) {
+  .wpcf7-form {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-sizing: border-box;
+    gap: 24px;
+  }
+
+  .wpcf7-form-control-wrap .wpcf7-checkbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-style-class {
+    flex-direction: column !important;
+    gap: 16px;
+  }
+
+  .form-style-class label:last-of-type,
+  .form-style-class label:first-of-type {
+    margin: 0;
+  }
+
+  .cf7-row p {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+form > div.cf7-row.cf7-checkbox-group > fieldset:nth-child(1) > legend {
+  font-family: "DegularVariable", serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+form > div.cf7-row.cf7-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form
+  > div.cf7-row.cf7-checkbox-group
+  > fieldset:nth-child(1)
+  > p
+  > span
+  > span {
+  /* column-gap: 70px; */
+  gap: 8px;
+}
+
+form
+  > div.cf7-row.cf7-checkbox-group
+  > fieldset:nth-child(1)
+  > p
+  > span
+  > span
+  > span {
+  width: 284px;
+  height: 24px;
+}
+
+form
+  > div.cf7-row.cf7-checkbox-group
+  > fieldset:nth-child(2)
+  > p
+  > span
+  > span
+  > span {
+  width: 284px;
+  height: 24px;
+}
+
+form > div.cf7-row.cf7-checkbox-group > fieldset:nth-child(2) > legend,
+form > div.cf7-row.cf7-checkbox-group > fieldset:nth-child(2) > legend {
+  display: none;
+}
+
+form > div.cf7-row.cf7-checkbox-group > fieldset:nth-child(1) > legend {
+  font-family: "DegularVariable", serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+form
+  > div.cf7-row.cf7-checkbox-group
+  > fieldset:nth-child(1)
+  > p
+  > span
+  > span
+  > span.wpcf7-list-item {
+  width: 284px;
+  height: 24px;
+}
+
+form
+  > div.cf7-row.cf7-checkbox-group
+  > fieldset:nth-child(2)
+  > p
+  > span
+  > span
+  > span.wpcf7-list-item {
+  width: 284px;
+  height: 24px;
+}
+
+form > div.cf7-row.cf7-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form.wpcf7-form input[type="submit"] {
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "langu-sistemos",
+  "version": "1.0.0",
+  "description": "- use svg icons\r - use global constant to include/require that defined in functions\r - proper icons function naming\r - use class-object if possible\r -",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madquick-Private-Limited/langu-sistemos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Madquick-Private-Limited/langu-sistemos/issues"
+  },
+  "homepage": "https://github.com/Madquick-Private-Limited/langu-sistemos#readme"
+}

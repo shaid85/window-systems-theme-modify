@@ -1,0 +1,388 @@
+/* fonts imports */
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Regular.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DegularBold";
+  src: url("../fonts/degular/Degular-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Degular Black */
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Degular Bold */
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Degular Light */
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Degular Medium */
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Degular Regular */
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Degular Semibold */
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-SemiboldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Degular Thin */
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../fonts/degular/Degular-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* degular imports end*/
+
+@font-face {
+  font-family: "DegularTextBold";
+  src: url("../fonts/DegularText-Bold.woff2") format("woff2"),
+    url("../fonts/DegularText-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DegularVariable";
+  src: url("../fonts/DegularVariable.woff2") format("woff2"),
+    url("../fonts/DegularVariable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DegularVariable";
+  src: url("../fonts/DegularVariable.woff2") format("woff2"),
+    url("../fonts/DegularVariable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Erbaum";
+  src: url("../fonts/Erbaum-Thin.eot");
+  src: local("Erbaum Thin"), local("Erbaum-Thin"),
+    url("../fonts/Erbaum-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Erbaum-Thin.woff2") format("woff2"),
+    url("../fonts/Erbaum-Thin.woff") format("woff"),
+    url("../fonts/Erbaum-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Erbaum";
+  src: url("../fonts/Erbaum-Medium.eot");
+  src: local("Erbaum Medium"), local("Erbaum-Medium"),
+    url("../fonts/Erbaum-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Erbaum-Medium.woff2") format("woff2"),
+    url("../fonts/Erbaum-Medium.woff") format("woff"),
+    url("../fonts/Erbaum-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Erbaum";
+  src: url("../fonts/Erbaum-Regular.eot");
+  src: local("Erbaum Regular"), local("Erbaum-Regular"),
+    url("../fonts/Erbaum-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Erbaum-Regular.woff2") format("woff2"),
+    url("../fonts/Erbaum-Regular.woff") format("woff"),
+    url("../fonts/Erbaum-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Erbaum";
+  src: url("../fonts/Erbaum-Black.eot");
+  src: local("Erbaum Black"), local("Erbaum-Black"),
+    url("../fonts/Erbaum-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Erbaum-Black.woff2") format("woff2"),
+    url("../fonts/Erbaum-Black.woff") format("woff"),
+    url("../fonts/Erbaum-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Erbaum";
+  src: url("../fonts/Erbaum-Light.eot");
+  src: local("Erbaum Light"), local("Erbaum-Light"),
+    url("../fonts/Erbaum-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Erbaum-Light.woff2") format("woff2"),
+    url("../fonts/Erbaum-Light.woff") format("woff"),
+    url("../fonts/Erbaum-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Erbaum";
+  src: url("../fonts/Erbaum-Bold.eot");
+  src: local("Erbaum Bold"), local("Erbaum-Bold"),
+    url("../fonts/Erbaum-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Erbaum-Bold.woff2") format("woff2"),
+    url("../fonts/Erbaum-Bold.woff") format("woff"),
+    url("../fonts/Erbaum-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Erbaum";
+  src: url("../fonts/Erbaum-Book.eot");
+  src: local("Erbaum Book"), local("Erbaum-Book"),
+    url("../fonts/Erbaum-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Erbaum-Book.woff2") format("woff2"),
+    url("../fonts/Erbaum-Book.woff") format("woff"),
+    url("../fonts/Erbaum-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ErbaumRegular";
+  src: url("../fonts/Erbaum-Regular.woff2") format("woff2"),
+    url("../fonts/Erbaum-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DegularText-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/DegularText-Bold.woff2) format("woff2"),
+    url(../fonts/DegularText-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DegularVariable;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DegularVariable.woff2) format("woff2"),
+    url(../fonts/DegularVariable.woff) format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Erbaum-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Erbaum-Regular.woff2) format("woff2"),
+    url(../fonts/Erbaum-Regular.woff) format("woff");
+}
+
+body {
+  font-family: "DegularVariable";
+}
+
+.font-erbaum {
+  font-family: Erbaum !important;
+  font-weight: 400; /* equal to normal */
+}
+
+.font-erbaum-regular {
+  font-family: ErbaumRegular;
+  font-weight: normal;
+}
+
+.font-degular-var {
+  font-family: "DegularVariable", serif;
+}
+/* 
+.swiper-button-next:after {
+  content: "→" !important;
+  font-size: 15px !important;
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: white !important;
+  z-index: 5;
+}
+
+.swiper-button-prev:after {
+  content: "←" !important;
+  font-size: 15px !important;
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: white !important;
+  z-index: 5;
+} */
+
+/* Degular Utility Classes */
+
+/* Thin */
+.font-degular-thin {
+  font-family: "Degular", sans-serif;
+  font-weight: 100;
+}
+.font-degular-thin-italic {
+  font-family: "Degular", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Light */
+.font-degular-light {
+  font-family: "Degular", sans-serif;
+  font-weight: 300;
+}
+.font-degular-light-italic {
+  font-family: "Degular", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Regular */
+.font-degular-regular {
+  font-family: "Degular", sans-serif;
+  font-weight: 400;
+}
+.font-degular-regular-italic {
+  font-family: "Degular", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Medium */
+.font-degular-medium {
+  font-family: "Degular", sans-serif;
+  font-weight: 500;
+}
+.font-degular-medium-italic {
+  font-family: "Degular", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Semibold */
+.font-degular-semibold {
+  font-family: "Degular", sans-serif;
+  font-weight: 600;
+}
+.font-degular-semibold-italic {
+  font-family: "Degular", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Bold */
+.font-degular-bold {
+  font-family: "Degular", sans-serif;
+  font-weight: 700;
+}
+
+.font-degular-text-bold {
+  font-family: "DegularTextBold", sans-serif;
+  font-weight: 700;
+}
+
+.font-degular-bold-italic {
+  font-family: "Degular", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Black */
+.font-degular-black {
+  font-family: "Degular", sans-serif;
+  font-weight: 900;
+}
+.font-degular-black-italic {
+  font-family: "Degular", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

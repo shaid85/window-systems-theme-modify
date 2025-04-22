@@ -1,0 +1,97 @@
+/*
+Theme Name: Langu Sistemos
+Author: Urbanlabs
+Description: A professional WooCommerce theme with Tailwind CSS and Elementor support.
+Version: 1.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: langu-sistemos
+*/
+
+ 
+
+/* Repeater Control Styling */
+.customize-control-repeater {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 6px;
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 800px;
+  }
+  
+  .customize-control-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+  }
+  
+  .repeater-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .repeater-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  
+  .repeater-item label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .repeater-item input[type="text"],
+  .repeater-item textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .repeater-item textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .repeater-remove {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .repeater-remove:hover {
+    background-color: #c0392b;
+  }
+  
+  .repeater-add {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .repeater-add:hover {
+    background-color: #1e8449;
+  }
+  
