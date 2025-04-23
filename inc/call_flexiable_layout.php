@@ -43,6 +43,26 @@ function my_custom_acf_style()
             max-height: 80px !important;
         }
 
+        .acf-gallery {
+            height: 300px !important;
+        }
+
+        div#height_small .acf-gallery {
+            height: 200px !important;
+        }
+
+        #fea_icon .acf-image-uploader.has-value img,
+        #fea_icon .acf-image-uploader.has-value .image-wrap {
+            max-height: 50px !important;
+            min-width: auto;
+            min-height: auto;
+        }
+
+        #sm_editor .acf-editor-wrap iframe {
+            height: 160px !important;
+            min-height: auto;
+        }
+
         @media (min-width: 1200px) and (max-width: 1550px) {
             #Sl_Img .ui-sortable {
                 display: flex;
